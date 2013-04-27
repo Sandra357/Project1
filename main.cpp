@@ -134,7 +134,7 @@ static int begin_request_handler(struct mg_connection *conn) {
             string str1 = "inputNumber" + to_string(i);
             string input1 = GetParam(postData , str1);
 
-            cout << "input: " << input1 << "\n";
+            //cout << "input: " << input1 << "\n";
 
             num[i] = stoi(input1);
             summ += num[i];
